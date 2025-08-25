@@ -10,7 +10,7 @@ from typing import Dict, Any, Optional
 
 # ==== Imports & Config ========================================================
 try:
-    from config import Config  # make sure your file name is config.py
+    from config import Config
 except Exception:
     # very small fallback so the server can still run
     class Config:  # type: ignore
